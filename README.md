@@ -28,24 +28,24 @@
 해당 object tracking and counting이 차종 및 유입, 유출 통행량 분석을 통해 해당 문제점들을 해결할 수 있는 발판을 제공할 것이라 기대
 ---------
 
-### Development Process
+## Development Process
 
-#### 1. Data Description
+### 1. Data Description
 ![dataset](https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/132141381/44ace999-b42c-411d-9338-1421175aa0a7)
 Train과 Validation을 전체 Dataset을 기준으로 7:3으로 나누었다.
 
 - sample images for each class
 ![스크린샷 2023-08-11 오전 6 03 24](https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/132141381/59f463cb-8ddf-4588-8cb2-6ce61f65eb88)
-#### 2. Model
+### 2. Model
 Trained YOLOv5, YOLOv7, YOLOv7-tiny, YOLOv8x
 
-Metrics
+####Metrics
 ![스크린샷 2023-08-10 오후 8 51 15](https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/132141381/a0906d33-602b-4f3a-b0cc-136149c5905e)
-##### Video result for YOLOv5
+#### Video result for YOLOv5
 
 https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/132141381/684e372a-319e-4994-8602-3b3ff7f0dc39
 
-##### Video result for YOLOv8x (Including object counting)
+#### Video result for YOLOv8x (Including object counting)
 
 
 https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/132141381/62ebd047-a192-439e-a840-b9baa773ea97
@@ -71,7 +71,7 @@ https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/1
 ##### 교차로 지역에 트럭의 수가 평균에 비해 약 30%인 이유는 해당 지역이 어린이보호구역이기 때문인 것으로 추정했다.
 ---------
 
-### Limitations
+## Limitations
 - YOLOv5의 경우 학습시킨 데이터가 차량을 근접거리에서 촬영한 이미지였기 때문에 차량이 CCTV와 거리가 멀어지면 감지 성능이 떨어지는 문제가 있었다.
 - CCTV영상 데이터를 프레임별로 나누고 이를 바탕으로 레이블링을 해서 학습을 시키면 감지성능이 개선될 것으로 생각된다.
 - 동일한 지역에서 다양한 시간대의 데이터가 존재했더라면 데이터 분석을 더 신빙성 있게 할 수 있을 것이다.
