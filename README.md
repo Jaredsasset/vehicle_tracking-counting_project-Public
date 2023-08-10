@@ -2,15 +2,15 @@
 
 ## Contents
 [💡 Intro](#-introduction)
-1. [Project Introduction](#1-project-introduction)
-2. [Project Background](#2-project-background)
+1. [Project Introduction](#project-introduction)
+2. [Project Background](#project-background)
 
 [⚙️ Development Process](#%EF%B8%8F-development-process)
 1. [Data Description](#1-data-description)
 2. [Model](#2-model)
    - YOLOv5 result video
    - YOLOv8x result video
-3. [Limitations](#3-limitations)
+3. [Limitations](#limitations)
 --------
 ## 💡 Introduction
 
