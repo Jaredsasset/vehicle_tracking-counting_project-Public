@@ -5,7 +5,7 @@
 1. [Project Introduction](#project-introduction)
 2. [Project Background](#project-background)
 
-[⚙️ Development Process](#%EF%B8%8F-development-process)
+[⚙️ Development Process](#development-process)
 1. [Data Description](#1-data-description)
 2. [Model](#2-model)
    - YOLOv5 result video
@@ -25,7 +25,7 @@
 - 교통체증으로 인한 시민들의 불편함
 - 지역특성에 따라 특정 차종의 통행제한이 이루어지고 있다는 점
   
-해당 object tracking and counting이 차종 및 유입, 유출 통행량 분석을 통해 해당 문제점들을 해결할 수 있는 발판을 제공할 것이라 기대
+   해당 object tracking and counting이 차종 및 유입, 유출 통행량 분석을 통해 해당 문제점들을 해결할 수 있는 발판을 제공할 것이라 기대
 ---------
 
 ## Development Process
