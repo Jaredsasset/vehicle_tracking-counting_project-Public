@@ -2,15 +2,15 @@
 
 ## Contents
 [💡 Intro](#-introduction)
-1. [Project Introduction](#1-Project-Introduction)
-2. [Project Background](#2-Project-Background)
+1. [Project Introduction](#1-project-introduction)
+2. [Project Background](#2-project-background)
 
-[⚙️ Development Process](#%EF%B8%8F-Development-Process)
-1. [Data Description](#1-Data-Description)
-2. [Model](#2-Model)
+[⚙️ Development Process](#%EF%B8%8F-development-process)
+1. [Data Description](#1-data-description)
+2. [Model](#2-model)
    - YOLOv5 result video
    - YOLOv8x result video
-3. [Limitations](#3-Limitations)
+3. [Limitations](#3-limitations)
 --------
 ## 💡 Introduction
 
@@ -26,7 +26,7 @@
 - 지역특성에 따라 특정 차종의 통행제한이 이루어지고 있다는 점
   
 해당 object tracking and counting이 차종 및 유입, 유출 통행량 분석을 통해 해당 문제점들을 해결할 수 있는 발판을 제공할 것이라 기대
-
+---------
 
 ### Development Process
 
@@ -69,7 +69,7 @@ https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/1
 
 ##### 차종별 전국 평균 일교통량과 크게 다르지 않다.
 ##### 교차로 지역에 트럭의 수가 평균에 비해 약 30%인 이유는 해당 지역이 어린이보호구역이기 때문인 것으로 추정했다.
-
+---------
 
 ### Limitations
 - YOLOv5의 경우 학습시킨 데이터가 차량을 근접거리에서 촬영한 이미지였기 때문에 차량이 CCTV와 거리가 멀어지면 감지 성능이 떨어지는 문제가 있었다.
