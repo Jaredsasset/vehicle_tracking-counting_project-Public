@@ -39,7 +39,7 @@ Train과 Validation을 전체 Dataset을 기준으로 7:3으로 나누었다.
 ### 2. Model
 Trained YOLOv5, YOLOv7, YOLOv7-tiny, YOLOv8x
 
-####Metrics
+#### Metrics
 ![스크린샷 2023-08-10 오후 8 51 15](https://github.com/Jaredsasset/vehicle_tracking-counting_project-Public/assets/132141381/a0906d33-602b-4f3a-b0cc-136149c5905e)
 #### Video result for YOLOv5
 
